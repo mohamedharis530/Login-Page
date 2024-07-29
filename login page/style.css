@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(178deg, rgba(201, 234, 252, 0.51) 14.9%, rgba(139, 192, 216, 0.73) 80%);
+    margin: 0;
+    padding: 0;
+}
+
+center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formgroup {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 0;
+}
+.one{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.icon{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.one input {
+    width: calc(100% - 5px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.password-toggle-icon{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    padding-right: 2px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+}
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remeber {
+    display: flex;
+    align-items: center;
+}
+
+.remeber input {
+    margin-right: 10px;
+}
+
+.forgetpassword {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.forgetpassword:hover {
+    text-decoration: underline;
+}
+
+.three button, .four button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: 4f0303;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.08s;
+   
+}
+
+.three .button:hover, .four button:hover {
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+    transition: .5s;
+}
+
+.four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.signup:hover {
+    text-decoration: underline;
+}
+.sign-up{
+    text-align: center;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button{
+    transition: 0.05s;
+}
+.error{
+    margin-bottom: 3px;
+    color: red;
+}
+.toggle-button{
+    background-color: black;
+    color: white;
+}
