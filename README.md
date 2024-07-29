@@ -7,5 +7,5 @@ A user-friendly and secure login page built using HTML, CSS, and JavaScript. The
 #invalid data 
 ![Screenshot 2024-07-29 110319](https://github.com/user-attachments/assets/f2e9aac0-0677-4dd9-8ec7-9730b462a521)
 
-#login redriect to welcome
+#login redriect to welcome page
 ![Screenshot 2024-07-29 002125](https://github.com/user-attachments/assets/aaaf1ca9-328a-4c71-9c76-e723118ef1d8)
